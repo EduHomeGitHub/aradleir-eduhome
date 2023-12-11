@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 const speakeasy = require('speakeasy');
 const nodemailer = require("nodemailer")
 require("dotenv").config()
-// Middleware
+// Middleware;
 app.use(express.urlencoded({
     extended: true
 }));
